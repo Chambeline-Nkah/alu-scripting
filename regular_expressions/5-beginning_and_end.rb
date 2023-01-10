@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-^h\w+n$
+puts ARGV[0].scan(/^h\w+n$/).join
