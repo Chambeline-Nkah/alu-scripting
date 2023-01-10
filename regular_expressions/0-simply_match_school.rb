@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-[A-Z]\D[^a+h]\w*[^a+]
+puts ARGV[0].scan(/[A-Z]\D[^a+h]\w*[^a+]/).join
