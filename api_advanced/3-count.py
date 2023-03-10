@@ -9,7 +9,7 @@ import requests
 
 
 def count_words(subreddit, word_list, after="", count=[]):
-    """Function to count_words
+    """Defining a function that counts words
     """
 
     if after == "":
